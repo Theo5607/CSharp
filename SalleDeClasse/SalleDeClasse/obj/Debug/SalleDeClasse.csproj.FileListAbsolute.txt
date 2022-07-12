@@ -1,0 +1,7 @@
+C:\Users\vince\source\repos\SalleDeClasse\SalleDeClasse\bin\Debug\SalleDeClasse.exe.config
+C:\Users\vince\source\repos\SalleDeClasse\SalleDeClasse\bin\Debug\SalleDeClasse.exe
+C:\Users\vince\source\repos\SalleDeClasse\SalleDeClasse\bin\Debug\SalleDeClasse.pdb
+C:\Users\vince\source\repos\SalleDeClasse\SalleDeClasse\obj\Debug\SalleDeClasse.csprojAssemblyReference.cache
+C:\Users\vince\source\repos\SalleDeClasse\SalleDeClasse\obj\Debug\SalleDeClasse.csproj.CoreCompileInputs.cache
+C:\Users\vince\source\repos\SalleDeClasse\SalleDeClasse\obj\Debug\SalleDeClasse.exe
+C:\Users\vince\source\repos\SalleDeClasse\SalleDeClasse\obj\Debug\SalleDeClasse.pdb

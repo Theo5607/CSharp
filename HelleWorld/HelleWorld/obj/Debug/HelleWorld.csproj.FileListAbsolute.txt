@@ -1,0 +1,7 @@
+C:\Users\vince\source\repos\HelleWorld\HelleWorld\bin\Debug\HelleWorld.exe.config
+C:\Users\vince\source\repos\HelleWorld\HelleWorld\bin\Debug\HelleWorld.exe
+C:\Users\vince\source\repos\HelleWorld\HelleWorld\bin\Debug\HelleWorld.pdb
+C:\Users\vince\source\repos\HelleWorld\HelleWorld\obj\Debug\HelleWorld.csprojAssemblyReference.cache
+C:\Users\vince\source\repos\HelleWorld\HelleWorld\obj\Debug\HelleWorld.csproj.CoreCompileInputs.cache
+C:\Users\vince\source\repos\HelleWorld\HelleWorld\obj\Debug\HelleWorld.exe
+C:\Users\vince\source\repos\HelleWorld\HelleWorld\obj\Debug\HelleWorld.pdb

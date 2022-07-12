@@ -1,0 +1,5 @@
+C:\Users\vince\Documents\Projets\Apprendre le C#\RectangleRotation.exe
+C:\Users\vince\Documents\Projets\Apprendre le C#\RectangleRotation.dll
+C:\Users\vince\Documents\Projets\Apprendre le C#\RectangleRotation.deps.json
+C:\Users\vince\Documents\Projets\Apprendre le C#\RectangleRotation.runtimeconfig.json
+C:\Users\vince\Documents\Projets\Apprendre le C#\RectangleRotation.pdb

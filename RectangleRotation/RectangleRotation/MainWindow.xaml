@@ -1,0 +1,74 @@
+﻿<Window x:Class="RectangleRotation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RectangleRotation"
+        mc:Ignorable="d"
+        Title="Rectangular antics" Height="450" Width="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.ColumnSpan="3">
+            <DockPanel Margin="0,30,0,0" HorizontalAlignment="Center">
+                <TextBlock Margin="0,0,0,5" FontSize="20">Choose angle:</TextBlock>
+
+                <TextBox x:Name="txtBox" PreviewTextInput="NumberValidationTextBox" Keyboard.KeyUp="LayoutTransformation_KeyUp" Margin="15,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="120"/>
+            </DockPanel>
+
+            <Button x:Name="btn" Click="RotateRender_Click" Grid.ColumnSpan="3" Margin="150,20,150,20" Height="50" FontSize="20">Transformation</Button>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="0">
+            <TextBlock Margin="0,0,0,30" HorizontalAlignment="Center" FontSize="15">Before</TextBlock>
+
+            <Rectangle Stroke="Black" Width="100" Height="175" RenderTransformOrigin="0.5,0.5">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="0"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <TextBlock Margin="0,0,0,30" HorizontalAlignment="Center" FontSize="15">Layout</TextBlock>
+            <Rectangle Stroke="Black" Width="100" Height="175" RenderTransformOrigin="0.5,0.5">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform x:Name="angle1" Angle="0"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="2">
+            <TextBlock Margin="0,0,0,30" HorizontalAlignment="Center" FontSize="15">Render</TextBlock>
+            <Rectangle Stroke="Black" Width="100" Height="175" RenderTransformOrigin="0.5,0.5">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform x:Name="angle2" Angle="0"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+        </StackPanel>
+    </Grid>
+</Window>

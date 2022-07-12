@@ -1,0 +1,7 @@
+C:\Users\vince\source\repos\TrouverLeNombre2\TrouverLeNombre2\bin\Debug\TrouverLeNombre2.exe.config
+C:\Users\vince\source\repos\TrouverLeNombre2\TrouverLeNombre2\bin\Debug\TrouverLeNombre2.exe
+C:\Users\vince\source\repos\TrouverLeNombre2\TrouverLeNombre2\bin\Debug\TrouverLeNombre2.pdb
+C:\Users\vince\source\repos\TrouverLeNombre2\TrouverLeNombre2\obj\Debug\TrouverLeNombre2.csprojAssemblyReference.cache
+C:\Users\vince\source\repos\TrouverLeNombre2\TrouverLeNombre2\obj\Debug\TrouverLeNombre2.csproj.CoreCompileInputs.cache
+C:\Users\vince\source\repos\TrouverLeNombre2\TrouverLeNombre2\obj\Debug\TrouverLeNombre2.exe
+C:\Users\vince\source\repos\TrouverLeNombre2\TrouverLeNombre2\obj\Debug\TrouverLeNombre2.pdb
